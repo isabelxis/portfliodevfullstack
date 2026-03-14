@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ExternalLink, Github, X } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import proj01Image from '../images/geradorqrcode.png';
 
 interface CaseStudy {
   id: number;
@@ -62,7 +63,7 @@ export function CaseStudies() {
       title: 'Mobile Fitness App',
       subtitle: 'App de treinos e nutrição personalizada',
       description: 'Aplicativo mobile com planos de treino personalizados, tracking de progresso e gamificação.',
-      image: 'https://images.unsplash.com/photo-1661246627162-feb0269e0c07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBpbnRlcmZhY2UlMjBkZXNpZ258ZW58MXx8fHwxNzcxNzIzNDg1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+      image: proj01Image,
       tags: ['React Native', 'Firebase', 'Python', 'ML'],
       challenge: 'Desenvolver um app mobile que oferecesse uma experiência personalizada para cada usuário, com sugestões inteligentes baseadas em seus objetivos e progresso.',
       solution: 'Utilizei React Native para desenvolvimento cross-platform e implementei algoritmos de machine learning em Python para personalização de treinos. Integrei Firebase para autenticação e sincronização de dados em tempo real.',
