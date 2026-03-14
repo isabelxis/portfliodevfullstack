@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import headImage from '../images/profile.png';
 
 export function Hero() {
   const scrollToAbout = () => {
@@ -70,7 +71,7 @@ export function Hero() {
             <div className="relative w-full max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur-2xl opacity-30" />
               <ImageWithFallback
-                src="foto_aqui"
+                src={headImage}
                 alt="Isabel Xavier"
                 className="relative rounded-2xl shadow-2xl w-full h-auto object-cover"
               />

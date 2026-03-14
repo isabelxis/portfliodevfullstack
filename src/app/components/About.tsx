@@ -44,20 +44,14 @@ export function About() {
           <div className="bg-white rounded-2xl shadow-lg p-8 md:p-12 mb-12">
             <div className="prose prose-lg max-w-none">
               <p className="text-slate-600 mb-6">
-                Sou um desenvolvedor full stack apaixonado por tecnologia com mais de 5 anos de experiência 
-                criando aplicações web modernas e escaláveis. Minha jornada começou quando descobri a programação 
-                durante a faculdade e desde então tenho me dedicado a construir soluções que fazem a diferença 
-                na vida das pessoas.
+                Sou desenvolvedora Full Stack com formação em Sistemas de Informação pela Faculdade 7 de Setembro (2014) e especialização em Engenharia de Software com ênfase em Padrões de Software pela Universidade Estadual do Ceará (UECE). Minha trajetória na área de tecnologia começou como assistente de TI, evoluindo para analista de sistemas e posteriormente para desenvolvedora full stack, consolidando uma base sólida em engenharia de software e desenvolvimento de sistemas
               </p>
               <p className="text-slate-600 mb-6">
-                Ao longo da minha carreira, trabalhei com startups e empresas consolidadas, sempre focando em 
-                entregar produtos de alta qualidade. Acredito que o melhor código é aquele que é simples, 
-                mantível e que resolve problemas reais de forma eficiente.
+                Desde 2019, integro o Sistema FIEC, onde atuo no desenvolvimento de soluções tecnológicas voltadas para a indústria cearense, participando da criação e evolução de sistemas que impactam diretamente processos e operações do setor. Ao longo dessa jornada, adquiri experiência em desenvolvimento full stack, trabalhando com diferentes tecnologias, boas práticas de engenharia e metodologias ágeis, sempre com foco em qualidade, escalabilidade e entrega de valor.
               </p>
               <p className="text-slate-600">
-                Quando não estou programando, gosto de contribuir com projetos open source, escrever artigos 
-                técnicos e estar sempre aprendendo novas tecnologias. Atualmente, estou focado em aprofundar 
-                meus conhecimentos em arquitetura de sistemas distribuídos e machine learning.
+                Tenho grande interesse em arquitetura de software e melhoria contínua, e atualmente estou aprofundando meus conhecimentos em arquitetura de sistemas distribuídos, cloud computing (AWS), pipelines CI/CD e uso de LLMs no desenvolvimento de software.
+                Fora do ambiente profissional, gosto de desenvolver projetos pessoais, contribuir com iniciativas open source e me manter em constante aprendizado, explorando novas tecnologias e tendências da área.
               </p>
             </div>
           </div>
