@@ -2,6 +2,8 @@
 
 Projeto de portfolio pessoal desenvolvido com React + Vite, com foco em apresentacao profissional, estudos de caso e canal de contato.
 
+https://isabelxis.github.io/portfliodevfullstack/
+
 ## Visao Geral
 
 A aplicacao e uma landing page de portfolio com as secoes:
