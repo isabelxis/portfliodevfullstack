@@ -1,4 +1,4 @@
-# Portfolio Desenvolvedor Full Stack
+# Portfolio Dev Full Stack
 
 Projeto de portfolio pessoal desenvolvido com React + Vite, com foco em apresentacao profissional, estudos de caso e canal de contato.
 
