@@ -60,21 +60,19 @@ export function CaseStudies() {
     },
     {
       id: 3,
-      title: 'Mobile Fitness App',
-      subtitle: 'App de treinos e nutrição personalizada',
-      description: 'Aplicativo mobile com planos de treino personalizados, tracking de progresso e gamificação.',
+      title: 'Gerador de QR Code',
+      subtitle: 'Página web de geração e leitura de códigos QR',
+      description: 'Página web para criar e escanear códigos QR, com funcionalidades de personalização e compartilhamento.',
       image: proj01Image,
-      tags: ['React Native', 'Firebase', 'Python', 'ML'],
-      challenge: 'Desenvolver um app mobile que oferecesse uma experiência personalizada para cada usuário, com sugestões inteligentes baseadas em seus objetivos e progresso.',
-      solution: 'Utilizei React Native para desenvolvimento cross-platform e implementei algoritmos de machine learning em Python para personalização de treinos. Integrei Firebase para autenticação e sincronização de dados em tempo real.',
+      tags: ['JavaScript', 'Node.js', 'Java', 'Spring Boot', 'S3','Docker'],
+      challenge: 'Criar uma solução web eficiente para geração e leitura de códigos QR, com interface intuitiva e desempenho consistente.',
+      solution: 'Desenvolvi uma aplicação web moderna utilizando JavaScript no frontend e Java Spring Boot no backend. Implementei uma API RESTful para gerenciar os códigos QR e utilizei bibliotecas especializadas para a leitura e geração de imagens.',
       results: [
-        '50.000+ downloads nos primeiros 3 meses',
-        '4.8 estrelas nas lojas de apps',
-        '65% de retenção de usuários após 30 dias'
+        'Em teste',
       ],
-      tech: ['React Native', 'TypeScript', 'Firebase', 'Python', 'TensorFlow', 'GraphQL'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      tech: ['JavaScript', 'Java', 'Spring Boot', 'S3', 'Docker'],
+      liveUrl: 'https://isabelxis.github.io/qrcode_generator/',
+      githubUrl: 'https://github.com/isabelxis/qrcode_generator'
     }
   ];
 
