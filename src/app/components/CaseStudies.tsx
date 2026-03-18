@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { ExternalLink, Github, X } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import proj01Image from '../images/geradorqrcode.png';
+import proj02Image from '../images/belbook.png';
 
 interface CaseStudy {
   id: number;
@@ -24,21 +25,21 @@ export function CaseStudies() {
   const caseStudies: CaseStudy[] = [
     {
       id: 1,
-      title: 'Dashboard Analytics',
-      subtitle: 'Plataforma de análise de dados em tempo real',
-      description: 'Sistema completo de analytics com visualizações interativas e processamento em tempo real.',
-      image: 'https://images.unsplash.com/photo-1665470909939-959569b20021?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3ZWIlMjBhcHBsaWNhdGlvbiUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NzE3MzUyMjh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
-      challenge: 'A empresa precisava de uma solução para visualizar e analisar grandes volumes de dados em tempo real, com performance e escalabilidade.',
-      solution: 'Desenvolvi uma aplicação web moderna utilizando React com TypeScript no frontend e Node.js no backend. Implementei WebSockets para atualizações em tempo real e otimizei as queries do banco de dados para lidar com milhões de registros.',
+      title: 'Bel Bookstore',
+      subtitle: 'Plataforma de venda de livros online',
+      description: 'Site simples e responsivo para venda de livros pessoais',
+      image: proj02Image,
+      tags: ['JavaScript', 'CSS', 'HTML', 'Docker', 'AWS EC2'],
+      challenge: 'Eu estava precisando vender meus livros e então criei em uma tarde essa página responsiva simples para exibir livros à venda.',
+      solution: 'Cada livro mostra nome, autor, preço, status, estado e foto. Há um botão QUERO que, ao ser clicado, abre um modal para o comprador informar nome e mensagem. Quando o formulário é enviado, uma nova aba do WhatsApp é aberta com mensagem pré-formatada e o status do livro muda para Vendido e o botão fica inativo.',
       results: [
-        'Redução de 70% no tempo de carregamento de dashboards',
-        'Processamento de 10.000+ eventos por segundo',
-        'Aumento de 45% na produtividade da equipe de análise'
+        'Site funcional e responsivo para venda de livros pessoais',
+        'Integração com WhatsApp para facilitar a comunicação entre comprador e vendedor',
+        'Gerenciamento de status dos livros para evitar vendas duplicadas'
       ],
-      tech: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Redis', 'WebSockets', 'Recharts'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      tech: ['JavaScript', 'CSS', 'HTML', 'Docker', 'AWS EC2'],
+      liveUrl: 'http://3.140.196.206:3000/',
+      githubUrl: 'https://github.com/isabelxis/belbook'
     },
     {
       id: 2,
