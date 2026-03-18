@@ -3,6 +3,7 @@ import { ExternalLink, Github, X } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import proj01Image from '../images/geradorqrcode.png';
 import proj02Image from '../images/belbook.png';
+import proj03Image from '../images/sucocubano.png';
 
 interface CaseStudy {
   id: number;
@@ -43,21 +44,21 @@ export function CaseStudies() {
     },
     {
       id: 2,
-      title: 'E-commerce Platform',
-      subtitle: 'Plataforma completa de vendas online',
-      description: 'E-commerce moderno com sistema de pagamentos, gerenciamento de estoque e painel administrativo.',
-      image: 'https://images.unsplash.com/photo-1577333715735-8fcb0359d906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlJTIwbW9ja3VwfGVufDF8fHx8MTc3MTc2MzQ3OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      tags: ['Next.js', 'Stripe', 'MongoDB', 'AWS'],
-      challenge: 'Criar uma experiência de compra fluida e segura, com integração de múltiplos métodos de pagamento e gerenciamento complexo de inventário.',
-      solution: 'Construí a plataforma usando Next.js para otimização de SEO e performance. Integrei Stripe para pagamentos seguros e implementei um sistema de cache inteligente para reduzir custos de infraestrutura.',
+      title: 'Suco Cubano',
+      subtitle: 'Plataforma de venda de drinks online',
+      description: 'Site simples e responsivo para vendas de drinks',
+      image: proj03Image,
+      tags: ['JavaScript', 'CSS', 'HTML'],
+      challenge: 'Uma amiga precisava se um site simples para venda de drinks para os lojistas e compradores em uma feira muito movimentada em Fortaleza',
+      solution: 'Construí a plataforma responsiva onde os clientes realizam os pedidos e o pedido chegava ao whatsapp da loja e era realizado a entrega do drink na barraca do cliente',
       results: [
-        'Aumento de 85% na taxa de conversão',
-        '99.9% de uptime desde o lançamento',
-        'Processamento de R$ 2M+ em vendas mensais'
+        'Mais controle no pedido',
+        'Comodidade para os cliente',
+        'Tornou o negócio mais profissional'
       ],
-      tech: ['Next.js', 'React', 'MongoDB', 'Stripe', 'AWS S3', 'Vercel', 'Tailwind CSS'],
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      tech: ['JavaScript', 'CSS', 'HTML'],
+      liveUrl: 'https://isabelxis.github.io/sucocubano/',
+      githubUrl: 'https://github.com/isabelxis/sucocubano'
     },
     {
       id: 3,
